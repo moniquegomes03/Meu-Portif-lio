@@ -1,0 +1,42 @@
+header{
+    background: url(https://www.civitatis.com/blog/wp-content/uploads/2022/10/panoramica-rio-janeiro-brasil.jpg) no-repeat center; background-size: cover;
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(255, 255, 255, 0.218)), url('https://www.ideianoar.com.br/wp-content/uploads/2021/09/desenvolvedor-web.jpg');
+
+        background-size: cover;
+        text-align: center;
+        height: 60vh;
+        padding: 1.05rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-attachment: fixed;
+        font-family: Fonte Geral;
+    }
+
+header h1{
+    color: #39f114;
+    }
+
+header .botao{
+        color:#000000;
+        background: #39f114c8;
+        padding: 0.6rem 1.4rem;
+        font-size: .9rem;
+        border-radius: 5px;
+        transform: skew(-12deg);              
+    }
+
+.botao_destaque{
+        background: #39f114;
+        color: #000000;
+        padding: 0.6rem 1.4rem;
+        font-size: .9rem;
+        border-radius: 5px;
+        transform: skew(-12deg);
+}
+
+.text{
+    color: rgb(43, 255, 0), 0, 0);
+}

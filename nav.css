@@ -1,0 +1,48 @@
+nav{
+    background-color: #0aca4abb;
+    display: flex;
+    align-items: center;
+    height: 24vh;
+}
+
+
+#logo{
+    width: 5.62rem;
+    height: 5.62rem;
+    margin-left: 2%;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #00ff22;
+}
+
+
+#logo img{
+    width: inherit;
+    height: 100%;
+}
+
+    nav ul{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    nav ul li{
+       padding: 1%;
+    }
+
+    
+    nav ul li a{
+        color: rgb(16, 105, 189);
+        text-shadow: 2px 2px rgb(14, 209, 235);
+        font-size: 1.3rem;
+        font-weight: 400;
+        font-family: 'Yellowtail', cursive;
+    }
+    
+
+    nav ul li a:hover{
+        color: rgb(3, 65, 66);
+        border-bottom: 3px solid #1e3ece;
+        border-radius: 20%;
+    }

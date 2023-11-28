@@ -1,0 +1,35 @@
+#contatos{
+    background: #11824d ;
+    margin: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-family: Fonte Geral;
+}
+
+.contatos_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+#horizontal{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contatos_card img{
+    width: 6%;
+    margin-right: 2%;
+}
+
+.contatos_card a{
+    color: #d9ff00;
+}
+
+@font-face {
+    font-family: Fonte Geral;
+    src: url(Stanberry.ttf);
+}

@@ -1,0 +1,29 @@
+#fotos{
+    background: #0aca4abb;
+    margin-top: 2%;
+}
+
+#fotos h2{
+    margin-bottom: 2%;
+    font-family: Fonte Geral;
+    color: rgb(0, 255, 0);
+}
+
+#fotos div{
+    width: 110%;
+    height: 120vh;
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#fotos div img{
+    width: 30%;
+    height: 40%;
+    padding: 1% 2% ; 
+}
+
+@font-face {
+    font-family: Fonte Geral;
+    src: url(Stanberry.ttf);
+}

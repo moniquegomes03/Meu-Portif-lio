@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Lemon Milk';
+    src: url(font/LEMONMILK-Regular.otf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lemon Milk' ;
+    color: rgb(22, 45, 220) 42, 63;
+    border: none;
+
+}
+
+html {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+
+input:focus {
+    outline: none;
+    border-color: #ff009d;
+}
+
+a {
+    font-size: .8rem;
+}
+
+a:hover {
+    color:  rgb(240, 10, 10), 147, 55);
+}
+
+/*Container Login */
+
+#login-container {
+    
+    background: rgb(255, 255, 255);
+    width: 25rem;
+    padding: 0.86rem;
+    text-align: center;
+    border-radius: .625rem;
+    
+}
+
+/* FORM */
+
+form {
+    margin: 2.5rem 0;
+
+}
+
+label, input {
+    display: block;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+input {
+    padding: .625rem;
+    font-size: 1rem;
+    width: 98%;
+    margin-bottom: 1.25rem;
+}
+
+#forgot-pass {
+    display: block;
+    text-align: right;
+    margin: 1rem;
+}
+
+input[value="login"] {
+    background-color:  #37938e;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 1.25rem;
+    margin-top: 1.6rem;
+    cursor: pointer;
+    transition: background-color 0.6s;
+}
+
+input[value="login"]:hover {
+   background-color:#2642d1;
+}
+
+/* REDES SOCIAIS */
+
+#social-container, #social-container p {
+    margin-bottom: 1.25rem;
+}
+
+#social-container i {
+    background-color:#000000;
+    color: #fff;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    border-radius: 50%;
+    margin: 0.3rem;
+}
+
+
+#social-container i:hover {
+    background-color:#2642d1;
+    cursor: pointer;
+    transition: background-color 0.6s;
+}
