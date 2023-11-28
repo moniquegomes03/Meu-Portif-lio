@@ -24,6 +24,7 @@ body{
     color: #91da0c;
     /* background-color: rgb(83, 81, 81); */
     overflow-x: hidden;
+    width: 100vw;
 }
 
 
@@ -83,7 +84,7 @@ p{
 
 .rolagem{
     position: fixed;
-    bottom: 1rem; right: 1rem;
+    bottom: 1rem; right: 3rem;
     background-color: #51ff00;
     border-radius: 50%;
     border: 3px solid #11824d;
